@@ -1,0 +1,102 @@
+html
+{
+	
+}
+h1
+{
+	text-align: center;
+}
+.box
+{
+	position: relative;
+	text-align: justify;
+}
+.box h2
+{
+	text-align: right;
+	padding-right: 10px;
+	background-color: #9FBED3;
+}
+.chicken
+{
+	margin: 10px;
+	float: left;
+	width: 30%;
+	border: solid;
+	border-color: blue;
+	border-width: 2px;
+	padding: 10px;
+	background-color: #FFE493;
+}
+.beef
+{
+	margin: 10px;
+	float: left;
+	width: 30%;
+	border: solid;
+	border-color: blue;
+	border-width: 2px;
+	padding: 10px;
+	background-color: #FFE493;
+}
+.sushi
+{
+	margin: 10px;
+	float: left;
+	width: 30%;
+	border: solid;
+	border-color: blue;
+	border-width: 2px;
+	padding: 10px;
+	background-color: #FFE493;
+}
+
+@media only screen and (min-width: 993px)
+{
+.sushi
+{
+	width: 29%;
+}
+.chicken 
+{
+	width: 29%;
+}
+.beef
+{
+	width: 29%;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 992px)
+{
+.sushi
+{
+	width: 95%;
+}
+.chicken 
+{
+	width: 44%;
+}
+.beef
+{
+	width: 44%;
+}
+}
+@media only screen and (max-width: 767px)
+{
+.box
+{
+	align-items: center;
+}
+.chicken
+{
+	width: 80%;
+}
+.beef
+{
+	width: 80%;
+}
+.sushi
+{
+	width: 80%;
+}
+}
